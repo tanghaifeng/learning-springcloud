@@ -1,0 +1,25 @@
+server:
+  port: 9000
+
+#服务的名称
+spring:
+  application:
+    name: api-gateway
+
+
+#指定注册中心地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka
+
+
+#自定义路由映射,设置 服务名称--url映射
+zuul:
+  #统一入口为上面的配置，其他入口忽略
+  ignored-services: "*"
+  routes:
+    service-objcat-a: /apigateway/api/**
+    service-objcat-b: /apigateway/api/**
+  #处理http请求头为空的问题
+  sensitive-headers:
