@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/serivce-a/pom.xml" />
         <option value="$PROJECT_DIR$/service-a/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo1/pom.xml" />
       </list>
     </option>
   </component>
