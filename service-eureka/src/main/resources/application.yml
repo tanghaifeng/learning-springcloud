@@ -1,8 +1,12 @@
 server:
   port: 8081
 eureka:
+  instance:
+    hostname: eureka
+    prefer-ip-address: true #是否使用Ip地址来注册
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
     server-url:
       defaultZone:http://127.0.0.1:8081/eureka
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: false #是否将自己注册到注册中心，默认为true 单节点 这两个要设置为false 不然会出现问题，集群没有问题
+    fetch-registry: false #是否从注册中心获取信息
