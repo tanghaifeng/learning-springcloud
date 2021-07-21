@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud" />
-        <module name="springboot-demo1" />
         <module name="service-zuul" />
         <module name="service-a" />
+        <module name="service-eureka3" />
         <module name="service-b" />
+        <module name="service-eureka2" />
+        <module name="springboot-demo1" />
         <module name="service-eureka" />
       </profile>
     </annotationProcessing>
@@ -19,6 +21,8 @@
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
       <module name="service-eureka" target="1.8" />
+      <module name="service-eureka2" target="1.8" />
+      <module name="service-eureka3" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springboot-demo1" target="1.8" />
     </bytecodeTargetLevel>
@@ -29,6 +33,8 @@
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />
       <module name="service-eureka" options="-parameters" />
+      <module name="service-eureka2" options="-parameters" />
+      <module name="service-eureka3" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
       <module name="springboot-demo1" options="-parameters" />
     </option>

@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/service-a/service-a.iml" filepath="$PROJECT_DIR$/service-a/service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-b/service-b.iml" filepath="$PROJECT_DIR$/service-b/service-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-eureka/service-eureka.iml" filepath="$PROJECT_DIR$/service-eureka/service-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-eureka2/service-eureka2.iml" filepath="$PROJECT_DIR$/service-eureka2/service-eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-eureka3/service-eureka3.iml" filepath="$PROJECT_DIR$/service-eureka3/service-eureka3.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-demo1/springboot-demo1.iml" filepath="$PROJECT_DIR$/springboot-demo1/springboot-demo1.iml" />
     </modules>
